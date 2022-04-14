@@ -1,0 +1,84 @@
+/*Parker Bernhardt 4-14-22*/
+.body{
+    background-color: rgb(202, 216, 233);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    background-color: rgb(202, 216, 233);
+    border: solid 2px white;
+    /* position: absolute; */
+}
+
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+.mainbody{
+    top: 114px;
+    bottom: 64px;
+    left: 114px;
+    right: 114px;
+}
+
+.rightmenu{
+    top: 114px;
+    bottom: 64px;
+    right: 5px;
+    width: 100px;
+}
+
+.footer{
+    bottom: 5px;
+    height: 50px;
+    left: 5px;
+    right: 5px;
+    font-size: 8px;
+    background-color: rgb(202, 216, 233);
+    text-align: center;
+    position: relative;
+}
+
+.subheader {
+    text-align: right;
+    position:absolute;
+    float: right;   
+}
+
+.tableau{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.apples{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: white;
+}
+
+.bottom{
+    bottom:0;
+    position: relative;
+}
+
+.tableaugraphs{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
